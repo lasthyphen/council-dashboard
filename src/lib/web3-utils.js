@@ -16,7 +16,7 @@ export function getFunctionSignature(func) {
 }
 
 export function getUseWalletProviders() {
-  const providers = [{ id: 'injected' }, { id: 'frame' }]
+  const providers = [{ id: 'injected' }]
 
   if (env('FORTMATIC_API_KEY')) {
     providers.push({

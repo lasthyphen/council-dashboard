@@ -31,7 +31,7 @@ export const networkConfigs = {
     nodes: {
       defaultEth: 'https://dijets.uksouth.cloudapp.azure.com:443/ext/bc/C/rpc',
       subgraph:
-        'http://20.9.85.213:8000/subgraphs/name/aragon/aragon-court-dijets',
+        'https://graphs.centralus.cloudapp.azure.com/subgraphs/name/aragon/aragon-court-dijets',
     },
   },
   ropsten: {

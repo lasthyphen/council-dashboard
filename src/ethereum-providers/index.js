@@ -20,11 +20,11 @@ const PROVIDERS = new Map(
     },
     {
       id: 'metamask',
-      name: 'Metamask',
+      name: 'Decypher',
       type: 'Desktop',
       image: metamask,
       strings: {
-        'your Ethereum wallet': 'Metamask',
+        'Dijets Utility Chain': 'Decypher',
       },
     },
     {

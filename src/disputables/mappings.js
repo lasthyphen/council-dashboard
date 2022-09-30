@@ -45,7 +45,7 @@ export const DISPUTABLE_SUBGRAPH_URLS = new Map([
       rinkeby:
         'https://api.thegraph.com/subgraphs/name/aragon/aragon-dvoting-rinkeby',
       dijets:
-        'http://20.9.85.213:8000/subgraphs/name/aragon/aragon-court-dijets',
+        'https://graphs.centralus.cloudapp.azure.com/subgraphs/name/aragon/aragon-court-dijets',
       ropsten:
         'https://api.thegraph.com/subgraphs/name/aragon/aragon-dvoting-ropsten',
     },

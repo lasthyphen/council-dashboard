@@ -14,7 +14,7 @@ const OnboardingModal = React.memo(function OnboardingModal({
   visible,
 }) {
   const content =
-    getNetworkType() === 'main' ? highlights.main : highlights.main
+    getNetworkType() === 'main' ? highlights.main : highlights.dijets
 
   const steps = content.length
   const { step, next, prev, setStep, direction } = useSteps(steps)

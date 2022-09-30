@@ -19,7 +19,7 @@ function TitleHeader({ title, onlyTitle = false }) {
             {!compactMode && (
               <Button
                 label="User guide"
-                href="https://support.dijets.io/article/41-aragon-court"
+                href="https://support.dijets.io/article/council-dashboard"
                 css={`
                   margin-right: ${1.5 * GU}px;
                   width: 150px;
